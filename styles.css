@@ -1,6 +1,12 @@
 * {
   margin:0px;
   padding:0px;
+  
+}
+
+body{
+    margin:0px; background-color:#cae6e2; color: grey;
+
 }
 
 #octocat {
@@ -10,8 +16,36 @@
 }
 
 p {
+     color: #31627b;
   display: block;
   width: 400px;
   margin: 50px auto;
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+}
+
+h1 {
+	font-size:2.0em;
+ padding: 10px;
+}
+
+h2 {
+	font-size:1.8em
+ padding: 10px;
+}
+
+h3 {
+	font-size:1.5em;
+ padding: 5px; 
+}
+
+h4, h5 {
+font-size:1.2em;
+margin: 0px;
+padding: 5px 0px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:#2e5f79;
 }
